@@ -16,6 +16,15 @@
 ```
   "use strict";
 ```
+
+## 자료형
+```
+  let test;
+  console.log(test); <= 아무 값도 없을 경우 null이 아닌 undefined 값이 표시된다.
+  test=null;
+  console.log(test); <= 변수에 null 값을 적용할 경우만 변수 값이 null이 된다.
+```
+
 ## 객체 생성방법
 ㅇ
 

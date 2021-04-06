@@ -1,6 +1,8 @@
+## 엄격모드 적용 방법
+"use strict";
+
 ## 객체 생성방법
 ㅇ
-
 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.

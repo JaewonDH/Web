@@ -1,12 +1,18 @@
 ## 변수 생성방법
 
-1. 일반적이 변수 
-var testA="AAA";
-var testB=1;
-let testC=11111;
-let testD="AAA";
+1. 기본변수 
+```
+  var testA="AAA";
+  var testB=1;
+  let testC=11111;
+  let testD="AAA";
+```
+
 2. 상수 
-const TEST=111;
+```
+  const TEST=111;
+  
+```    
 
 ## 엄격모드 적용 방법
 "use strict";

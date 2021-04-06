@@ -18,6 +18,15 @@
 ```
 
 ## 자료형
+1.문자형
+ 큰따옴표: "Hello"
+ 작은따옴표: 'Hello'
+ 역 따옴표(백틱, backtick): `Hello`
+```
+  let str = "Hello";
+  let str2 = 'Single quotes are ok too';
+  let phrase = `can embed another ${str}`;
+```
 1.NaN
 ```
   console.log("숫자가 아님" / 2 );. // 말이 되지 않는 수식 계산 시 NaN 자료형을 반환
@@ -26,7 +35,7 @@
 ```
   console.log(Infinity); // 무한데 자료형 어느 숫자든 0으로 나누면 무한대를 얻을 수 있습니다.
 ```
-4.null,undefined
+3.null,undefined
 ```
   let test;
   console.log(test); <= 아무 값도 없을 경우 null이 아닌 undefined 값이 표시된다.

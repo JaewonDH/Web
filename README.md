@@ -7,7 +7,6 @@
   let testC=11111;
   let testD="AAA";
 ```
-
 2. 상수 
 ```
   const TEST=111;
@@ -15,8 +14,9 @@
 ```    
 
 ## 엄격모드 적용 방법
-"use strict";
-
+```
+  "use strict";
+```
 ## 객체 생성방법
 ㅇ
 

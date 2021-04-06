@@ -20,9 +20,9 @@
 ## 자료형
 1.문자형
 
- 큰따옴표: "Hello"
- 작은따옴표: 'Hello'
- 역 따옴표(백틱, backtick): `Hello`
+ 큰따옴표: "Hello"  
+ 작은따옴표: 'Hello'  
+ 역 따옴표(백틱, backtick): `Hello`  
 ```
   let str = "Hello";
   let str2 = 'Single quotes are ok too';

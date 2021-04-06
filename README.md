@@ -1,10 +1,11 @@
 ## 변수 생성방법
 
+1. 일반적이 변수 
 var testA="AAA";
 var testB=1;
 let testC=11111;
 let testD="AAA";
-
+2. 상수 
 # 상수선언
 const TEST=111;
 

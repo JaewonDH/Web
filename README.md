@@ -20,7 +20,7 @@
 ## 자료형
 1.문자형
 
- 큰따옴표: "Hello"  
+ >큰따옴표: "Hello"  
  작은따옴표: 'Hello'  
  역 따옴표(백틱, backtick): `Hello`  
 ```

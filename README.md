@@ -1,3 +1,13 @@
+## 변수 생성방법
+
+var testA="AAA";
+var testB=1;
+let testC=11111;
+let testD="AAA";
+
+# 상수선언
+const TEST=111;
+
 ## 엄격모드 적용 방법
 "use strict";
 

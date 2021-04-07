@@ -64,8 +64,21 @@
 
   typeof alert // "function"  (3)
 ```
-## 객체 생성방법
-ㅇ
+## 형변환
+1.  문자 형변환
+```
+  let value=true;
+  console.log(typeof value);
+  value= String(value);
+  console.log(typeof value);
+```
+2. 숫자 형변환 
+```
+  let value=true;
+  console.log(typeof value);
+  value= String(value);
+  console.log(typeof value);
+```
 
 ## 객체 생성방법
 ㅇ

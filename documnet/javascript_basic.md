@@ -1,5 +1,3 @@
-
-출처 :https://ko.javascript.info/ 개인공부 정리 
 ## 변수 생성방법
 
 1. 기본변수 

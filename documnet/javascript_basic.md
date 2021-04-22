@@ -35,30 +35,30 @@
   
 ```
 
-2. BigInt
-  >아주 끈 숫자를 사용할 때만 사용하는 자료형
-  >끝에 'n'이 붙으면 BigInt형 자료입니다. 
-  > BigInt를 지원하는 않는 브라우저가 있으며 지원하는 브라우저는 다음과 같음 (Firefox, Chrome, Edge)
+3. BigInt
+  >아주 끈 숫자를 사용할 때만 사용하는 자료형 
+   끝에 'n'이 붙으면 BigInt형 자료입니다.  
+   BigInt를 지원하는 않는 브라우저가 있으며 지원하는 브라우저는 다음과 같음 (Firefox, Chrome, Edge)
     
 ```  
   let value = 123455555n;    
 ```
-3. NaN
+4. NaN
 ```
   console.log("숫자가 아님" / 2 );. // 말이 되지 않는 수식 계산 시 NaN 자료형을 반환
 ```
-4. Infinity 
+5. Infinity 
 ```
   console.log(Infinity); // 무한데 자료형 어느 숫자든 0으로 나누면 무한대를 얻을 수 있습니다.
 ```
-5. null,undefined
+6. null,undefined
 ```
   let test;
   console.log(test); <= 아무 값도 없을 경우 null이 아닌 undefined 값이 표시된다.
   test=null;
   console.log(test); <= 변수에 null 값을 적용할 경우만 변수 값이 null이 된다.
 ```
-6. typeof 연산자
+7. typeof 연산자
 ```
   typeof undefined // "undefined"
 

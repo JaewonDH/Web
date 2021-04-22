@@ -36,9 +36,11 @@
 ```
 
 2. BigInt
-```
-  // 끝에 'n'이 붙으면 BigInt형 자료입니다. 
-  //BigInt를 지원하는 않는 브라우저가 있으며 지원하는 브라우저는 다음과 같음 (Firefox, Chrome, Edge)
+  >아주 끈 숫자를 사용할 때만 사용하는 자료 
+  >끝에 'n'이 붙으면 BigInt형 자료입니다. 
+   BigInt를 지원하는 않는 브라우저가 있으며 지원하는 브라우저는 다음과 같음 (Firefox, Chrome, Edge)
+    
+```  
   let value = 123455555n;    
 ```
 3. NaN

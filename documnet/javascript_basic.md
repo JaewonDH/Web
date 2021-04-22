@@ -93,7 +93,7 @@
   console.log(typeof value); // number
 
   value="123 "; 
-  value=Number(value); // 문자열에 숫자만있으면 수자형으로 변환 가능 공백도 제거 됨.
+  **value=Number(value);** // 문자열에 숫자만있으면 수자형으로 변환 가능 공백도 제거 됨.
   console.log(value); // 숫자 자료형으로 변환 됨 123
   console.log(typeof value); // number
 ```

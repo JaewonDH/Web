@@ -88,10 +88,14 @@
 ```
 2. 숫자 형변환 
 ```
-  let value=true;
-  console.log(typeof value);
-  value= String(value);
-  console.log(typeof value);
+  let value="7"/"2";
+  console.log(value); // 숫자 자료형으로 변환 됨 3
+  console.log(typeof value); // number
+
+  value="123 "; 
+  value=Number(value); // 문자열에 숫자만있으면 수자형으로 변환 가능 공백도 제거 됨.
+  console.log(value); // 숫자 자료형으로 변환 됨 123
+  console.log(typeof value); // number
 ```
 
 ## 객체 생성방법

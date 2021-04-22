@@ -1,7 +1,7 @@
 출처 :https://ko.javascript.info/ 개인공부 정리 
 ## 변수 생성방법
 
-1. 기본변수 
+1. 자바스크립트 기본(./documnet/javascript_basic.md) 
 ```
   var testA="AAA";
   var testB=1;

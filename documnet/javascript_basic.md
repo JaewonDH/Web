@@ -29,7 +29,7 @@
   let phrase = `can embed another ${str}`;
 ```
 2. 숫자형
-```
+``` javascript
   let value = 1;
   let value_point = 1.222;
   

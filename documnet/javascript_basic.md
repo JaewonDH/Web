@@ -108,8 +108,14 @@
   console.log(Boolean("0")); //true
 ```
 
-## 객체 생성방법
-ㅇ
+## 기본 연산자 
+``` javascript
+  let value=1;
+  console.log(-value); // 단항 연산으로 부호가 바뀜 -1
+  console.log(3-2); // - 이항 연산 값 반환  1
+  console.log(8%3); // %연산 나머지 값 반환 2
+  console.log(8**3); // ** 거듭 제곱 연산 8를 3번 곱한 값 반환 512
+```
 
 
 ## 객체 생성방법

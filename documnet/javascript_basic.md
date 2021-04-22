@@ -97,6 +97,16 @@
   console.log(value); // 숫자 자료형으로 변환 됨 123
   console.log(typeof value); // number
 ```
+3. Boolean
+``` javascript
+  console.log(Boolean(1)); //true
+  console.log(Boolean(0)); // false
+  //문자열의 내용이 있으면 true 없으면 false
+  console.log(Boolean("test")); //true
+  console.log(Boolean("")); //true
+  console.log(Boolean("1")); //true
+  console.log(Boolean("0")); //true
+```
 
 ## 객체 생성방법
 ㅇ

@@ -28,6 +28,18 @@
   let str2 = 'Single quotes are ok too';
   let phrase = `can embed another ${str}`;
 ```
+2. 숫자형
+```
+  let value = 1;
+  let value_point = 1.222;
+  
+```
+
+2. BigInt
+```
+  // 끝에 'n'이 붙으면 BigInt형 자료입니다. BigInt를 지원하는 않는 브라우저가 있으며 지원하는 브라우저는 다음과 같음 (Firefox, Chrome, Edge)
+  let value = 123455555n;    
+```
 2. NaN
 ```
   console.log("숫자가 아님" / 2 );. // 말이 되지 않는 수식 계산 시 NaN 자료형을 반환

@@ -84,7 +84,7 @@
   let value=true;
   console.log(typeof value);
   value= String(value);
-  console.log(typeof value);
+  console.log(typeof value); // value 는 "true"
 ```
 2. 숫자 형변환 
 ```

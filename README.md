@@ -166,3 +166,31 @@ let calculator = {
 }
 
 ```
+9. new 연산자와 생성자 함수
+객체의 틀을 만들고 재 사용하기 사용함.  
+```
+function Accumulator(value){
+    this.value=value;
+
+    this.read=(value)=>{
+        this.value+=value;
+    }
+}
+
+let accumulator = new Accumulator(2);
+
+accumulator.read(2);
+accumulator.read(10);
+
+console.log(accumulator.value);
+
+
+// 재사용할 필요가 없는 객체를 아래와 같이 만들어 캡슐화 한다.
+let userB= new function(){
+
+}
+
+```
+10. 옵셔널 체이닝 공부해야함 ? 최근 문법 
+11. Symbol  
+11. 체를 원시형으로 변환하기 ?  

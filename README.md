@@ -25,3 +25,17 @@
 7. (a ?? 1)    
    => ??는 앞에 변수 a에 null이나 undefined 확인하여 아니면 a 값을 반환 그렇지 않음면 1을 반환  
    => a ?? 1 =====> (!a==null && !a==undefined) ? a : 1  
+## loop
+1. 레이블을 사용하여 loop 밖으로 빠져 나올 수 있음  
+아래 for문에서 break , contiune에 레이블을 넣어면 outer 선언 후 첫번 째 outer로 넘어가서 continue하거나 break 한다.
+outer:for(let i=0; i<10; i++){  
+    for(let j=0; j<10; j++){                 
+        if(i==5){  
+            break outer;  
+        }  
+        if(j==0 || i==0){  
+            continue;  
+        }  
+        console.log(`${i}*${j}=${i*j}`);          
+    }    
+}

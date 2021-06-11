@@ -8,5 +8,5 @@
 
 
 
-undefined 숫자로 형변환 시 Nan 됨
+undefined 숫자로 형변환 시 Nan 됨  
 null 숫자로 형변환 시 0 이됨.

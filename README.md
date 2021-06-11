@@ -42,13 +42,15 @@ outer:for(let i=0; i<10; i++){
 }
 ```
 ## function
-1. 디폴트 파라미터에 값이나 함수를 호출하여 설정 가능 
-``` function aa(name,print,age=getAge(),temp=22){
+1. 디폴트 파라미터에 값이나 함수를 호출하여 설정 가능  
+```
+function aa(name,print,age=getAge(),temp=22){
 
     }
 ```
 2. 파라미터에 함수를 넣어 함수 내부에서 함수 호출 가능 
-```  function print(data){
+```  
+function print(data){
         console.log(data);
     }
   function showMesage(message, print){
@@ -57,13 +59,15 @@ outer:for(let i=0; i<10; i++){
     showmesage("ddd",print);
 ```
 3. 함수 표현식 가능 
-```let print=function(message){
+```
+let print=function(message){
         console.log(message);
    }
 ```   
 4. 화살표 함수 
 아래와 같이 함수를 줄여서 표현 할 수 있다.
-```let minus = (a,b)=> a+b;
+```
+let minus = (a,b)=> a+b;
    let printA2 = ()=> console.log();
    let printMessagea = message => console.log(message);
 ```   

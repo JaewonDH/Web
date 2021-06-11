@@ -27,7 +27,7 @@
    => a ?? 1 =====> (!a==null && !a==undefined) ? a : 1  
 ## loop
 1. 레이블을 사용하여 loop 밖으로 빠져 나올 수 있음  
-아래 for문에서 break , contiune에 레이블을 넣어면 outer 선언 후 첫번 째 outer로 넘어가서 continue하거나 break 한다.
+아래 for문에서 break , contiune에 레이블을 넣어면 outer 선언 후 첫번 째 outer로 넘어가서 continue하거나 break 한다. 
 outer:for(let i=0; i<10; i++){  
     for(let j=0; j<10; j++){                 
         if(i==5){  
